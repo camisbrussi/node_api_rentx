@@ -9,7 +9,7 @@ services:
       - 6699:5432
     environment:
       - POSTGRES_USER=docker
-      - POSTGRES_PASSWORD=eDu$7Z8BBBXf
+      - POSTGRES_PASSWORD=eDu7Z8BBBXf
       - POSTGRES_DB=rentx
     volumes:
       - pgdata:/data/postgres
