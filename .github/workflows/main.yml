@@ -36,7 +36,7 @@ jobs:
           target: "~/app/node_api_rentx"
 
       - name: Update API
-      - uses: appleboy/scp-action@master
+        uses: appleboy/scp-action@master
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
